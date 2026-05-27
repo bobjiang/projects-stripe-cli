@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "providers": {
+    "turso": {
+      "name": "Turso"
+    }
+  },
+  "resources": {
+    "primary-db": {
+      "name": "primary-db",
+      "providerName": "Turso",
+      "serviceId": "database"
+    },
+    "primary-db-2": {
+      "name": "primary-db-2",
+      "providerName": "Turso",
+      "serviceId": "database"
+    }
+  }
+}

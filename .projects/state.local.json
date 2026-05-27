@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "project": {
+    "initializedAt": "2026-04-25T10:57:46.124Z",
+    "merchantDisplayName": null,
+    "merchantId": "acct_1PjrbmRuO2Zel37K",
+    "projectId": "project_61UZRrVLPYGmGixWc16QtFZ8Tj8SyP2x1IoPwL8hcRM0",
+    "projectName": "projects-stripe-cli"
+  },
+  "providers": {
+    "turso": {
+      "accountRequestId": "facctrq_61UjxLegKqyyATxa716QtFZ8Tj8SyP2x1IoPwL8hcOQC",
+      "linkedAt": "2026-05-24T10:36:19.885Z",
+      "providerId": "prvdr_61UGLtrGjcXK8rTq15RWq",
+      "providerName": "Turso",
+      "redirectUrl": null,
+      "requestedAt": "2026-05-24T10:36:19.885Z",
+      "status": "complete"
+    }
+  },
+  "resources": {
+    "primary-db": {
+      "configuration": {
+        "name": "primary-db",
+        "location": "aws-ap-south-1"
+      },
+      "createdAt": "2026-05-24T10:37:09.241Z",
+      "lastRevealedAt": "2026-05-24T10:37:09.939Z",
+      "lastStatus": "complete",
+      "name": "primary-db",
+      "providerId": "prvdr_61UGLtrGjcXK8rTq15RWq",
+      "providerName": "Turso",
+      "resourceId": "fres_61UjxMLtKFlncKFRM16QtFZ8Tj8SyP2x1IoPwL8hcDyK",
+      "serviceId": "database"
+    },
+    "primary-db-2": {
+      "configuration": {
+        "name": "learning-db",
+        "location": "aws-ap-south-1"
+      },
+      "createdAt": "2026-05-26T09:35:14.263Z",
+      "lastRevealedAt": "2026-05-26T09:35:14.974Z",
+      "lastStatus": "complete",
+      "name": "primary-db-2",
+      "providerId": "prvdr_61UGLtrGjcXK8rTq15RWq",
+      "providerName": "Turso",
+      "resourceId": "fres_61UkfLWXJPVyQXB8G16QtFZ8Tj8SyP2x1IoPwL8hcOZk",
+      "serviceId": "database"
+    }
+  }
+}
